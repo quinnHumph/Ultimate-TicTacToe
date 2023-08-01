@@ -17,7 +17,7 @@ namespace UltimateTicTacToe
     public enum GameState
     {
         Player1Win, Player2Win, Playing, Tie
-    }
+    }  
     #endregion
     #region Helpers
     public class Coordinate
@@ -35,10 +35,6 @@ namespace UltimateTicTacToe
         {
             get { return _y; }
         }
-        #endregion
-        #region Static Fields
-        public static int x_limit = 7;
-        public static int y_limit = 6;
         #endregion
 
     }
